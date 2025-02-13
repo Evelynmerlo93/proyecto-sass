@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    .container-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card-info {
+      width: 90%;
+    }
+  
+    header {
+      text-align: center;
+    }
+  
+    nav ul {
+      display: block;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    footer iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1, h2 {
+      font-size: 1.2rem;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  
+    ol {
+      padding: 0 10px;
+    }
+  
+    input, button {
+      font-size: 0.9rem;
+    }
+  }
+  

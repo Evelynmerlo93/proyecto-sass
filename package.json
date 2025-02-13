@@ -1,0 +1,21 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Evelynmerlo93/proyecto-sass#readme",
+  "bugs": {
+    "url": "https://github.com/Evelynmerlo93/proyecto-sass/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evelynmerlo93/proyecto-sass.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./scss/style.scss:./css/style.css"
+  }
+}

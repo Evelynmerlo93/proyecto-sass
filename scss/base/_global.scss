@@ -1,0 +1,31 @@
+body {
+    background-color: $secondary-color;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: $text-color;
+    background-color: $primary-color;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .titulo-principal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.875rem;
+    color: $primary-color;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+  

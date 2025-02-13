@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1.25rem;
+    list-style: none;
+    padding: 1rem;
+  
+    li {
+      a:hover {
+        background-color: rgba(85, 45, 122, 0.775);
+      }
+    }}

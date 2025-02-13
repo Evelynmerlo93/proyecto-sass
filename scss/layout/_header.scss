@@ -1,0 +1,34 @@
+header {
+    background-color: $primary-color;
+    color: $text-color;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+  
+  // Estilos del banner principal
+  .banner {
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+  }
+  
+  // Media Queries para header
+  @media (max-width: 768px) {
+    header {
+      padding: 0.8rem;
+  
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }

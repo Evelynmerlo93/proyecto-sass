@@ -1,0 +1,12 @@
+button {
+    padding: 0.625rem 1.25rem;
+    background-color: $primary-color;
+    color: $text-color;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+
+    &:hover {
+      background-color: rgba(85, 45, 122, 0.775);
+    }
+  }

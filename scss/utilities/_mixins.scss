@@ -1,0 +1,10 @@
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 1.25rem
+}
+
+@mixin borde-redondeado($radio) {
+    border-radius: $radio;
+  }
